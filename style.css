@@ -1,0 +1,23 @@
+
+
+.nav-link:hover {
+    background-color: brown;
+    border-radius: 5%;
+}
+
+.servicios {
+    margin: 1em;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom, rgb(233, 178, 116), rgb(3, 117, 121));
+}
+
+.relleno{
+    padding: 1em;
+    margin: 1em;
+}
+
+.redes {
+    float: right;
+}

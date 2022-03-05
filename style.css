@@ -15,9 +15,40 @@
 
 .relleno{
     padding: 1em;
-    margin: 1em;
 }
 
 .redes {
     float: right;
+}
+
+
+#menu-lg {
+    display: none;
+}
+
+
+@media screen and (max-width: 394px) {
+    nav div h1 {
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    #menu-lg {
+        display: block;
+    }
+    .font-nav {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .font-nav {
+        font-size: 1.5em;
+    }
 }

@@ -45,6 +45,10 @@
     h2 {
         font-size: 1.5em;
     }
+    .redes_img{
+        width: 30px;
+        height: 30px;
+    }
 }
 
 @media screen and (min-width: 1024px) {

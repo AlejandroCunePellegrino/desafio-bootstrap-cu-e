@@ -29,6 +29,9 @@
 .images{
     height: 15em;
 }
+.float{
+    float: left;
+}
 
 .text{
     font-size: 4em;
@@ -60,7 +63,7 @@
     .redes_img{
         width: 30px;
         height: 30px;
-    }
+    }    
 }
 
 @media screen and (min-width: 1024px) {

@@ -6,9 +6,15 @@
 .servicios {
     margin: 1em;
 }
+.diseño {
+    background-image: url(images/planos.jpg);
+}
+.viewport {
+    height: 100vh;
+}
 
-.gradient {
-    background-image: linear-gradient(to bottom, rgb(233, 178, 116), rgb(3, 117, 121));
+.fondo {
+    background-color: rgb(206, 209, 211);
 }
 
 .relleno{
@@ -29,6 +35,8 @@
 }
 .float{
     float: left;
+    height: 30em;
+    width: 30em;
 }
 
 .text{
@@ -66,6 +74,7 @@
 
 @media screen and (min-width: 1024px) {
     .font-nav {
-        font-size: 1.5em;
+        font-size: 1em;
+    
     }
 }

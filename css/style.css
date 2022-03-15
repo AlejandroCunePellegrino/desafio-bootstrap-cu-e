@@ -13,7 +13,7 @@
   height: 100vh; }
 
 .fondo {
-  background-color: #ced1d3; }
+  background-image: url(../images/diseño.jpg); }
 
 .relleno {
   padding: 1em; }

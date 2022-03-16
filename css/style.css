@@ -1,35 +1,44 @@
 @charset "UTF-8";
-* {
-  margin: 0; }
-
 .nav-link:hover {
   background-color: brown;
   border-radius: 5%; }
 
+/*mixin*/
 .servicios {
   margin-top: 2em;
   padding-top: 4em;
-  z-index: 1;
   font-size: 2.5em; }
 
 .viewport {
   height: 100vh; }
 
-.fondo-diseño {
+/*extend*/
+.fondo-diseño, .fondo-planos, .fondo-asesoramiento, .fondo-direccion, .fondo-btn {
   background-image: url(https://abax3dtech.com/wp-content/uploads/2020/10/proyecto-arquitectura-acabados-estilo_190619-2-web-1024x528.jpg);
-  height: 100vh; }
+  height: 100vh;
+  background-position: center center; }
 
 .fondo-planos {
-  background-image: url(../images/planos-min.jpg);
-  height: 100vh; }
+  background-image: url(../images/planos-min.jpg); }
 
 .fondo-asesoramiento {
-  background-image: url(../images/asesoramiento.jpg);
-  height: 100vh; }
+  background-image: url(../images/asesoramiento.jpg); }
 
 .fondo-direccion {
-  background-image: url(../images/direccion1.jpg);
-  height: 100vh; }
+  background-image: url(../images/direccion1.jpg); }
+
+.fondo-btn {
+  background-image: url(../images/contacto.jpg); }
+
+/*maps*/
+.fondo-azul {
+  background-color: #110488; }
+
+.fondo-azul1 {
+  background-color: #1613bd; }
+
+.fondo-azul2 {
+  background-color: #3a3ae2; }
 
 .relleno {
   padding: 1em; }

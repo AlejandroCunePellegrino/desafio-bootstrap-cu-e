@@ -1,38 +1,55 @@
-* {
-    margin: 0;
-}
+
 .nav-link:hover {
     background-color: brown;
     border-radius: 5%;
 }
+/*mixin*/
 
+@mixin sizes($margin-top, $padding-top, $font-size) {
+    margin-top: $margin-top;
+    padding-top: $padding-top;
+    font-size: $font-size;
+}
 .servicios {
-    margin-top: 2em;
-    padding-top: 4em;
-    z-index: 1;
-    font-size: 2.5em;
+  @include sizes(2em, 4em, 2.5em);
 }
 
 .viewport {
     height: 100vh;
 }
 
+/*extend*/
 .fondo-diseño {
     background-image: url(https://abax3dtech.com/wp-content/uploads/2020/10/proyecto-arquitectura-acabados-estilo_190619-2-web-1024x528.jpg);
     height:100vh;
+    background-position: center center;
 }
 .fondo-planos {
+    @extend .fondo-diseño;
     background-image: url(../images/planos-min.jpg);
-    height:100vh;
 }
 .fondo-asesoramiento {
+    @extend .fondo-diseño;
     background-image: url(../images/asesoramiento.jpg);
-    height:100vh;
 }
 .fondo-direccion {
+    @extend .fondo-diseño;
     background-image: url(../images/direccion1.jpg);
-    height:100vh;
 }
+.fondo-btn {
+    @extend .fondo-diseño;
+    background-image: url(../images/contacto.jpg);
+}
+
+/*maps*/
+
+$color-fondo:(azul:rgb(17, 4, 136), azul1:rgb(22, 19, 189), azul2:rgb(58, 58, 226));
+@each $clave, $valor in $color-fondo {
+    .fondo-#{$clave} {
+        background-color: $valor;
+    }
+}
+
 .relleno{
     padding: 1em;
 }

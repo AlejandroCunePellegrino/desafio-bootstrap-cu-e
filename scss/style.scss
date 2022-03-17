@@ -2,12 +2,16 @@
     background-color: brown;
     border-radius: 5%;
 }
-
 .servicios {
     margin: 1em;
+    font-size: 1.5em;
 }
-.diseño {
-    background-image: url(images/planos.jpg);
+.row-height{
+    height: 20em;
+}
+.servicios-fondo {
+    background-image: url(../images/diseñomod.jpg);
+    height: 100%;
 }
 .viewport {
     height: 100vh;
@@ -40,7 +44,7 @@
 }
 
 .text{
-    font-size: 4em;
+    font-size: em;
 }
 @media screen and (max-width: 394px) {
     nav div h1 {

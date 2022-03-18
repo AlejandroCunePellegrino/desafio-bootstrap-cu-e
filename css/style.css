@@ -1,7 +1,11 @@
 @charset "UTF-8";
 .nav-link:hover {
-  background-color: brown;
-  border-radius: 5%; }
+  border-bottom: 2px solid red; }
+
+.logo {
+  height: 4em;
+  padding: 5px;
+  margin-bottom: 3px; }
 
 .servicios {
   margin: 1em;
@@ -11,14 +15,30 @@
   height: 20em; }
 
 .servicios-fondo {
-  background-image: url(../images/diseñomod.jpg);
+  background-image: url(../images/diseñomod.jpg);
   height: 100%; }
+
+.servicios-fondo2 {
+  background-image: url(../images/asesor-mod.jpg);
+  height: 100%; }
+
+.bg-servi {
+  /*background-image: linear-gradient(white, rgb(163, 165, 140));*/
+  background-color: #eaeef0; }
+
+.bg-servi2 {
+  background-color: #eaeef0; }
 
 .viewport {
   height: 100vh; }
 
-.fondo {
-  background-color: #ced1d3; }
+.btn-contacto {
+  text-decoration: none;
+  background-color: #0c0c0c;
+  border-radius: 5px;
+  color: white;
+  padding: 1em;
+  box-shadow: 1px 3px 5px black; }
 
 .relleno {
   padding: 1em; }
@@ -46,7 +66,7 @@
   footer {
     font-size: 0.8em; }
   .text {
-    font-size: 2em; } }
+    font-size: 1em; } }
 
 @media screen and (min-width: 768px) {
   .navbar {
@@ -63,4 +83,6 @@
 
 @media screen and (min-width: 1024px) {
   .font-nav {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .text {
+    font-size: 1.5em; } }

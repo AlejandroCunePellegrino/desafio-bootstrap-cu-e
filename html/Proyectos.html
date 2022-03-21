@@ -12,7 +12,7 @@
     <body class="gradient">
         <nav class="navbar navbar-dark bg-dark sticky-top" >
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><h1>Estudio de arquitectura</h1></a>
+                <a class="navbar-brand" href="../index.html"><h1><img src="../images/logo_small_icon_only.png" alt="logo" class="logo-sm"></h1></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -27,10 +27,10 @@
                             <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="Galeria.html">Galeria</a>
+                                <a class="nav-link active" aria-current="page" href="Proyectos.html">Proyectos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="Proyectos.html">Proyectos</a>
+                                <a class="nav-link active" aria-current="page" href="Galeria.html">Galeria</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="Sobre mi.html">Sobre mi</a>
@@ -43,22 +43,21 @@
                 </div>
             </div>
         </nav>
-        <div id="menu-lg">  
+        <div id="menu-lg" class="sticky-top">  
             <div class="container-fluid">
                 <div class="row">
                     <div class=" col-6 bg-dark text-white">
-                        <h2>Estudio de arquitectura</h2>
-                        <h2>Luis Alberto Morra</h2>
+                        <img src="../images/logo_small_letrablanca.png" alt="Logo" class="logo">
                     </div>
                     <ul class=" col-6 nav justify-content-end bg-dark">
                         <li class="nav-item">
                           <a class="nav-link active text-white font-nav p-1 mt-4" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active text-white font-nav p-1 mt-4" aria-current="page" href="Galeria.html">Galeria</a>
-                        </li>
+                            <a class="nav-link active text-white font-nav p-1 mt-4" aria-current="page" href="Proyectos.html">Proyectos</a>
+                          </li>
                         <li class="nav-item">
-                          <a class="nav-link active text-white font-nav p-1 mt-4" aria-current="page" href="Proyectos.html">Proyectos</a>
+                          <a class="nav-link active text-white font-nav p-1 mt-4" aria-current="page" href="Galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link active text-white font-nav p-1 mt-4" aria-current="page" href="Sobre mi.html">Sobre mi</a>
@@ -70,59 +69,152 @@
                 </div>
             </div>
         </div>
-        <main class="container-fluid">
+        <main class="container-fluid fondo">
             <div class="row justify-content-center">
                 <div class="col-6">
                     <h2 class="text-center text">Proyectos</h2>
                 </div>
             </div>
-            <div class="row p-2 m-1">
-                <div class="col-xs-12 col-md-3">
-                    <img src="../images/Proyecto1.jpg" class="img-fluid" alt="">
+            <div class="row justify-content-center">
+                <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-10 m-1 p-2" style="width: 18rem;">
+                    <img src="../images/casa1.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Aca iria una breve reseña del proyecto.</p>
+                        <p>
+                            <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Mas info...
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                            Y aqui pondria un poco mas de informacion.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-md-9">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quibusdam, assumenda incidunt? Eum rerum reiciendis exercitationem, 
-                        molestias quos, voluptatibus cupiditate quia ad pariatur quasi dicta odio.
-                        Exercitationem quod inventore doloribus voluptatibus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quibusdam, assumenda incidunt? Eum rerum reiciendis exercitationem, 
-                        molestias quos, voluptatibus cupiditate quia ad pariatur quasi dicta odio.
-                        Exercitationem quod inventore doloribus voluptatibus.</p>
+                <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-10 m-1 p-2" style="width: 18rem;">
+                    <img src="../images/casa2.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p>
+                            <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                            Mas info...
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample2">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-10 m-1 p-2" style="width: 18rem;">
+                    <img src="../images/casa3.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p>
+                            <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                            Mas info...
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample3">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-10 m-1 p-2" style="width: 18rem;">
+                    <img src="../images/casa4.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p>
+                            <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                            Mas info...
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample4">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row p-2 m-1">
-                <div class="col-xs-12 col-md-3">
-                    <img src="../images/Proyecto1.jpg" class="img-fluid" alt="">
-                    
+            <div class="row justify-content-center">
+                <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-10 m-1 p-2" style="width: 18rem;">
+                    <img src="../images/casa5.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p>
+                            <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                            Mas info...
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample5">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-md-9">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quibusdam, assumenda incidunt? Eum rerum reiciendis exercitationem, 
-                        molestias quos, voluptatibus cupiditate quia ad pariatur quasi dicta odio.
-                        Exercitationem quod inventore doloribus voluptatibus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quibusdam, assumenda incidunt? Eum rerum reiciendis exercitationem, 
-                        molestias quos, voluptatibus cupiditate quia ad pariatur quasi dicta odio.
-                        Exercitationem quod inventore doloribus voluptatibus.</p>
-                    
+                <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-10 m-1 p-2" style="width: 18rem;">
+                    <img src="../images/casa6.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p>
+                            <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                            Mas info...
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample6">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> 
-            <div class="row p-2 m-1">
-                <div class="col-xs-12 col-md-3">
-                    <img src="../images/Proyecto1.jpg" class="img-fluid" alt="">
+                <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-10 m-1 p-2" style="width: 18rem;">
+                    <img src="../images/casa7.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p>
+                            <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                            Mas info...
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample7">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-md-9">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quibusdam, assumenda incidunt? Eum rerum reiciendis exercitationem, 
-                        molestias quos, voluptatibus cupiditate quia ad pariatur quasi dicta odio.
-                        Exercitationem quod inventore doloribus voluptatibus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Quibusdam, assumenda incidunt? Eum rerum reiciendis exercitationem, 
-                        molestias quos, voluptatibus cupiditate quia ad pariatur quasi dicta odio.
-                        Exercitationem quod inventore doloribus voluptatibus.</p>
+                <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-10 m-1 p-2" style="width: 18rem;">
+                    <img src="../images/casa8.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p>
+                            <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                            Mas info...
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample8">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> 
+            </div>
             <div class="row justify-content-end">
                 <div class="col-6 p-3 mt-2">
                     <span class="redes"><a href="https://www.facebook.com/luisalberto.morra" target="_blank"><img src="../images/icono_facebook_negro.png" alt="facebook" class="redes_img"></a></span>

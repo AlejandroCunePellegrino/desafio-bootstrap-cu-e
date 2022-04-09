@@ -3,7 +3,7 @@
   border-bottom: 2px solid #f70707; }
 
 .fondo {
-  background-color: #c4bdbd; }
+  background-color: #ebe8e8; }
 
 .fondo-contacto {
   background-image: url(../images/edificioblancoynegro.jpg); }
@@ -18,6 +18,19 @@
   height: 2em;
   padding: 0;
   margin: 0; }
+
+.banner {
+  background-image: url(../images/banner-mod.png); }
+
+.bg-banner {
+  background-image: linear-gradient(170deg, #ffffff 89%, #9b9a98 92%); }
+
+.banner div {
+  background-color: rgba(240, 248, 255, 0.824); }
+
+.banner p {
+  font-size: 2em;
+  padding-top: 4em; }
 
 .servicios {
   margin: 1em;
@@ -93,12 +106,15 @@ form {
   border: 2px solid black;
   border-radius: 5%;
   padding: 5px;
-  margin-top: 3em; }
+  margin-top: 2em; }
 
-form button {
-  background-color: #08df08;
-  border-radius: 10%;
-  font-size: 1.2em; }
+form div:nth-child(6) {
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center; }
+
+form div button {
+  background-color: rgba(186, 190, 190, 0.84); }
 
 @media screen and (max-width: 394px) {
   nav div h1 {
@@ -122,12 +138,8 @@ form button {
     height: 30px; }
   .text {
     font-size: 1.5em; }
-  .inicio {
-    height: 9em;
-    padding: 6px;
-    padding-top: 2em;
-    margin-bottom: 8px;
-    margin-top: 5em; } }
+  .banner div {
+    display: none; } }
 
 @media screen and (min-width: 1024px) {
   .font-nav {
